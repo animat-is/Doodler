@@ -85,18 +85,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.pdb",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(ProjectDir)/Plugins/PaintingSystem/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -642,14 +630,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UnrealEditor-Cbor.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UnrealEditor-CEF3Utils.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UnrealEditor-CEF3Utils.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -3181,14 +3161,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Win64/UnrealEditor-WebBrowser.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UnrealEditor-WebBrowser.pdb",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/Win64/UnrealEditor-WidgetCarousel.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -5392,10 +5364,6 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/Developer/RiderLink/RiderLink.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/ElectronicNodes/ElectronicNodes.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -23321,10 +23289,6 @@
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/AgentInterface.pdb",
 			"Type": "DebugNonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/EpicWebHelper.exe",
-			"Type": "NonUFS"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/oo2tex_win64_2.9.5.dll",
