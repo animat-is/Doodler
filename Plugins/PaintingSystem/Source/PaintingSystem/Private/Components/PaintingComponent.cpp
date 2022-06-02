@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "PaintingComponent.h"
+#include "Components/PaintingComponent.h"
 #include "PaintingSubsystem.h"
 
 DEFINE_LOG_CATEGORY(LogPainting);
