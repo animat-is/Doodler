@@ -9,6 +9,7 @@
 UMeshPaintingComponent::UMeshPaintingComponent()
 {
 	PaintRadius = 16;
+	// use absolute transform so it doesn't get any noise from the owner
 	SetUsingAbsoluteLocation(true);
 	SetUsingAbsoluteRotation(true);
 	SetUsingAbsoluteScale(true);
