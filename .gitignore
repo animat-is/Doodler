@@ -45,9 +45,6 @@
 SourceArt/**/*.png
 SourceArt/**/*.tga
 
-# Binary Files
-Binaries/*
-Plugins/*/Binaries/*
 
 # Builds
 Build/*
@@ -91,3 +88,7 @@ HoloLens
 /Plugins/RiderSourceCodeAccess
 /Binaries/Mac
 /Binaries/IOS
+
+!DoodlerEditor.target
+!UnrealEditor.modules
+!UnrealEditor-Doodler.dll
